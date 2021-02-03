@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+	--pink: hsl(322, 100%, 66%);
+	--light-pink: hsl(321, 100%, 78%);
+	--light-red: hsl(0, 100%, 63%);
+	--dark-cyan: hsl(192, 100%, 9%);
+	--pale-blue: hsl(207, 100%, 98%);
+}
+
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -7,6 +17,6 @@ body {
 }
 
 img {
-  max-width: 100%;
-  display: block;
+	max-width: 100%;
+	display: block;
 }
